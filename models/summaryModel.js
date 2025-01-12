@@ -16,7 +16,8 @@ var getModel = () => {
         },
         msg: {
             type: String
-        }
+        },
+        err: []
     }, { timestamps: true });
 
     try {

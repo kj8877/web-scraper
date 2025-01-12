@@ -6,6 +6,7 @@ var router = models => {
 
     summaryRouter.route('/')
         .get(summaryController.get)
+        .post(summaryController.post)
 
     return summaryRouter
 }
